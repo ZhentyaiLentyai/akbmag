@@ -1,0 +1,20 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.add-button{
+    margin: 3px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(42, 42, 226);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button-block{
+    display: flex;
+    flex-direction: column;
+}

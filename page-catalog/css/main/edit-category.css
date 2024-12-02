@@ -1,0 +1,44 @@
+.close-button__edit-category {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button__edit-category:hover,
+.close-button__edit-category:focus,
+.delete-category:hover,
+.delete-category:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.editCategoryForm{
+    display: flex;
+    flex-direction: column;
+    
+}
+.modal__content p{
+    padding-top: 10px;
+}
+.modal__content li{
+    padding-top: 5px;
+    list-style: none;
+
+}
+.editCategoryForm label{
+    padding-top: 10px;
+}
+.editCategoryForm input{
+    padding: 5px;
+}
+.save-button{
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(42, 42, 226);
+    color: white;
+    cursor: pointer;
+}

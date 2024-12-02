@@ -1,0 +1,10 @@
+header{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    margin-bottom: 30px;
+}
+@media(max-width: 1250px){
+    header{
+        margin-bottom: 15px;
+    }
+}

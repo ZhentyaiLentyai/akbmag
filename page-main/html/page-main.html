@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/page/page.css">
+    <!-- header -->
+    <link rel="stylesheet" href="../css/header/header.css">
+    <link rel="stylesheet" href="../css/header/navigation.css">
+    <link rel="stylesheet" href="../css/header/menu.css">
+    <!-- aside -->
+    <link rel="stylesheet" href="../css/aside/aside.css">
+    <link rel="stylesheet" href="../css/aside/avtoakb.css">
+    <!-- main -->
+    <link rel="stylesheet" href="../css/main/main.css">
+    <link rel="stylesheet" href="../css/main/callback-block.css">
+    <link rel="stylesheet" href="../css/main/service-block.css">
+    <link rel="stylesheet" href="../css/main/carousel.css">
+    <link rel="stylesheet" href="../css/main/info-block.css">
+    <!-- footer -->
+    <link rel="stylesheet" href="../css/footer/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbmag</title>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="navigation">
+                <div class="navigation__container">
+                    <div class="navigation__left">
+                        <ul class="navigation__menu">
+                            <li class="navigation__city">
+                                <a href="" id="selected-city">Москва</a>
+                                <ul class="navigation__city-menu">
+                                    <li><a href="#" class="navigation__city-option" data-city="Москва">Москва</a></li>
+                                    <li><a href="#" class="navigation__city-option" data-city="Санкт-Петербург">Санкт-Петербург</a></li>
+                                </ul>
+                            </li>
+                            <li class="navigation__dropdown">
+                                <button id="dropdown-btn">Меню</button>
+                                <ul class="navigation__dropdown-menu">
+                                    <li><a href="">О компании</a></li>
+                                    <li><a href="">Оптом</a></li>
+                                    <li><a href="">Гарантия</a></li>
+                                    <li><a href="">Акции</a></li>
+                                    <li><a href="">Вакансии</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <script src="../../page-main/js/navigation-menu.js"></script>
+
+                    <div class="navigation__right">
+                        <input class="navigation__right-search" placeholder="Поиск по сайту">
+                        <a href=""><img class="navigation__search-img" src="../../page-main/img/search.svg" alt="search"></a>
+                        <a href="../../page-account/php/check_auth.php"><img class="navigation__account-img" src="../../page-main/img/account.jpg" alt="basket"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu__left">
+                    <div class="menu__logo">
+                        <a href="../../page-main/html/page-main.html"><img src="../../page-main/img/akbmag.svg" alt="АКБМАГ"></a>
+                        <p>Магазин аккумуляторов</p>
+                    </div>
+                    <a class="menu__catalog-link" href="../../page-catalog/php/page-catalog.php">
+                        <div class="menu__button-catalog">Каталог</div>
+                    </a>
+                    <div class="menu__contacts">
+                        <p>
+                            <a href="">
+                                <span class="menu__phone">+7 (977) 777-77-77</span>
+                            </a>
+                        </p>
+                        <a href="" class="menu__callback">Заказать обратный звонок</a>
+                    </div>
+                </div>
+                <div class="menu__links">
+                    <ul>
+                        <li><a href="">Доставка и оплата</a></li>
+                        <li><a href="">Статус заказа</a></li>
+                        <li><a href="">Адреса и контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <script src="../../page-main/js/city.js"></script>
+
+
+        <aside>
+            <div class="avtoakb">
+                <p>Автомобильные аккумуляторы</p>
+                <ul>
+                    <li class="avtoakb__brand"><a href="">HOWTER</a></li>
+                    <ul>
+                        <li class="avtoakb__series"><a href="">HOWTER AGM</a></li>
+                        <li class="avtoakb__series"><a href="">HOWTER EFB</a></li>
+                    </ul>
+                    <li class="avtoakb__brand">
+                        <a href="">AKBMAX</a></li>
+                    <ul>
+                        <li class="avtoakb__series"><a href="">AKBMAX PLUS</a></li>
+                        <li class="avtoakb__series"><a href="">AKBMAX ST</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </aside>
+
+        <main>
+            <div class="callback-block">
+                <h1 id="callback-block__title">Аккумуляторы для автомобиля в Москве</h1>
+                <p>Купите аккумуляторы <a href="">для автомобиля</a> с <a href="">доставкой</a> сегодня!</p>
+                <p>Бесплатно <a href="">по акции</a>. Есть <a href="">самовывоз</a>. Установка от 200 руб.</p>
+                <p>Скидка за сдачу старого до 2200 руб.</p>
+                <div class="callback-block__input">
+                    <input placeholder="Введите номер">
+                    <button>Жду звонка</button>
+                </div>
+                <p class="callback-block__comment">Позвоним за 23 сек ежедневно с 7:00 до 00:00</p>
+            </div>
+            <div class="services-block">
+                <a href="">
+                    <div class="services-block__delivery">
+                        <div class="services-block__delivery-text">
+                            <h1>Доставка</h1>
+                            <div class="services-block__delivery-info">
+                                <img src="../img/callback-block.jpg" alt="fire">
+                                <p id="delivery-time">Экспресс по Москве от 50 мин</p>
+                            </div>
+                            <p>– Привезем в день заказа</p>
+                            <p id="delivery-cost">– 300₽ до 10км от МКАД</p>
+                            <p id="delivery-distance">– Доставка до 30 км от МКАД</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="services-block__install">
+                    <div class="services-block__install-text">
+                        <h1>Установка</h1>
+                        <p>– На любые автомобили</p>
+                        <p>– При доставке и самовывозе</p>
+                        <a href="">Фото примеров работ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel">
+                <div class="carousel__container">
+                    <a href="" class="carousel__item">
+                        <div class="carousel__block-1">
+                            <div class="carousel__text">
+                                <h1>Утилизация</h1>
+                                <p>- Скидка до 2200₽/шт</p>
+                                <p>- Лицензия</p>
+                                <img src="../img/carousel-1.png" alt="Утилизация">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="carousel__item">
+                        <div class="carousel__block-2">
+                            <div class="carousel__text">
+                                <h1>Бесплатная доставка</h1>
+                                <p>- При покупки от 10000 рублей</p>
+                                <img src="../img/carousel-2.png" alt="Утилизация 2">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="carousel__item">
+                        <div class="carousel__block-3">
+                            <div class="carousel__block-text">
+                                <h1>Скидка</h1>
+                                <p>За 2 аккумулятора 20% скидки!</p>
+                                <img src="../img/carousel-3.jpeg" alt="Утилизация 3">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel__indicators"></div>
+            </div>
+            
+            <script src="../js/carousel.js"></script>
+                 
+            <div class="info-block">
+                <h1>Купить аккумулятор на автомобиль легко!</h1>
+                <div class="info-block__text">
+                    <img src="../img/info-block__call.png" alt="call">
+                    <p>По телефону <a href="">+7 (977) 777-77-77</a> без выходных работает многоканальный call-центр, позвонив в который вы получите профессиональную консультацию по подбору аккумулятора или другого товара и сможете оформить заказ через оператора.
+                    </p>
+                </div>
+                <div class="info-block__text">
+                    <img src="../img/info-block__catalog.png" alt="catalog">
+                    <p>Если вы знаете точную модель аккумулятора для автомобиля — выберите производителя и модель АКБ в каталоге, нажмите «Купить в 1 клик» для быстрого оформления или зайдите в карточку товара и нажмите «Купить» для оформления покупки через корзину, где вы сможете указать телефон для связи, адрес, желаемую дату и способ доставки аккумулятора.</p>
+                </div>
+                <div class="info-block__text">
+                    <img src="../img/info-block__online.png" alt="online">
+                    <p>Воспользоваться онлайн-сервисом <a href="">подбора аккумулятора по марке</a> и модели автомобиля или техническим параметрам. В нашей базе подбора содержатся данные о 20.000 модификаций легковых автомобилей, грузовиков и автобусов. Рекомендуем уточнить правильность выбранной модели аккумулятора при согласовании заказа с менеджером.</p>
+                </div>
+                <div class="info-block__text">
+                    <p>Постоянная акция — купите аккумулятор и получите скидку за ваш старый аккумулятор до 2200 рублей.</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer__container">
+                <div class="footer__text">
+                    <ul>
+                        <li><a href="">О компании</a></li>
+                        <li><a href="">Помощь</a></li>
+                        <li><a href="">Адреса и контакты</a></li>
+                        <li><a href="">Партнерская программа</a></li>
+                        <li><a href="">Вакансии</a></li>
+                        <li><a href="">Пользовательское соглашение</a></li>
+                        <li><a href="">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <img src="../img/footer__warranty.png">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

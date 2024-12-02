@@ -1,0 +1,17 @@
+.info-block{
+    margin-top: 20px;
+}
+.info-block__text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info-block__text img{
+    float: left;
+    padding-right: 10px;
+}
+.info-block__text p{
+    line-height: 25px;
+}
+.info-block__text a{
+    text-decoration: none;
+} 

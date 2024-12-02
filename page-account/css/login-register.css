@@ -1,0 +1,29 @@
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.account form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.account input, .account button{
+    margin: 5px;
+    padding: 5px;
+}
+.account button{
+    background-color: rgb(42, 42, 226);
+    border-radius: 5px;
+    color: white;
+}
+.account button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.account a{
+    text-decoration: none;
+}

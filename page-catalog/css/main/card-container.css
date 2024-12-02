@@ -1,0 +1,89 @@
+.card-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* Выравниваем элементы по высоте */
+}
+
+.card-container a {
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease;
+    box-sizing: border-box; /* Учитываем отступы и границы */
+}
+
+@media (max-width: 1050px) {
+    .card-container a {
+        width: 32%;
+    }
+}
+
+.card-container a:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Равномерное распределение содержимого */
+    height: 100%; /* Устанавливаем одинаковую высоту */
+    padding: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    box-sizing: border-box; /* Учитываем отступы и границы */
+}
+
+.card img {
+    width: 100%;
+    height: auto; /* Избегаем искажений изображения */
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+.card p {
+    margin: 0;
+}
+
+.card-button__edit,
+.card-button__delete,
+.card-button__basket{
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(42, 42, 226);
+    color: white;
+    cursor: pointer;
+    
+}
+.card-button__edit:hover,
+.card-button__delete:hover,
+.card-button__basket:hover{
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.4)
+}
+.card-button__edit:active,
+.card-button__delete:active,
+.card-button__basket:active{
+    background-color: white;
+    color: black;
+}
+
+.message-box {
+    position: fixed;
+    top: 140px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #28a745; /* Зеленый цвет для успешного сообщения */
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+

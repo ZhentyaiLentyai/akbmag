@@ -1,0 +1,22 @@
+/* Стили для модального окна */
+.modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Окно фиксировано */
+    z-index: 1; /* На переднем плане */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Добавьте прокрутку, если необходимо */
+    background-color: rgb(0,0,0); /* Черный фон с прозрачностью */
+    background-color: rgba(0,0,0,0.4); /* С черным фоном и прозрачностью */
+}
+
+.modal__content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% от верхней и центра по горизонтали */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ширина окна */
+    max-width: 500px; /* Максимальная ширина окна */
+}

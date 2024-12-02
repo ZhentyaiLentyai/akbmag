@@ -1,0 +1,29 @@
+.avtoakb{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.avtoakb p{
+    font-size: 18px;
+    font-weight: bold;
+}
+@media(max-width: 1250px){
+    .avtoakb p{
+        font-size: 17px;
+    }
+}
+.avtoakb__brand, .avtoakb__series{
+    list-style-type: none;
+}
+.avtoakb__brand a, .avtoakb__series a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+.avtoakb__brand{
+    padding-top: 15px;
+    font-weight: bold;
+}
+.avtoakb__series{
+    padding-top: 10px;
+    padding-left: 20px;
+}

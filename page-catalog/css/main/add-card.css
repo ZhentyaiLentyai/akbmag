@@ -1,0 +1,35 @@
+.close-button__add-card {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button__add-card:hover,
+.close-button__add-card:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.addCardForm{
+    display: flex;
+    flex-direction: column;
+    
+}
+.addCardForm label{
+    padding-top: 10px;
+}
+.addCardForm input{
+    padding: 10px;
+}
+.addCardForm select{
+    padding: 10px;
+}
+.save-button{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(42, 42, 226);
+    color: white;
+    cursor: pointer;
+}

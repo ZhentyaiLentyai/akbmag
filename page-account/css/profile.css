@@ -1,0 +1,39 @@
+.profile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile__title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.profile__title a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.profile-container p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.form-order,
+.table-button__delete{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background-color: rgb(42, 42, 226);
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.form-order:hover,
+.table-button__delete:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}

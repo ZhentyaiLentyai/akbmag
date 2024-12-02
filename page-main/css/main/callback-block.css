@@ -1,0 +1,58 @@
+.callback-block{
+    max-width: 100%;
+    padding: 15px;
+    background-color: rgb(235, 235, 235);
+    background-image: url('../../img/callback.png');
+    background-size: 300px 200px;
+    background-position: right 5px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.callback-block h1{
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+@media(max-width: 1250px){
+    .callback-block h1{
+        font-size: 24px;
+    }
+}
+
+.callback-block p{
+    padding-top: 5px;
+    color: rgb(78, 78, 78);
+}
+@media(max-width: 1050px){
+    .callback-block p{
+        width: 400px;
+    }
+}
+.callback-block a{
+    text-decoration: none;
+    color: rgb(42, 42, 226);
+}
+.callback-block__input{
+    padding-top: 10px;
+    display: flex;
+}
+.callback-block__input input{
+    padding: 5px 0px 5px 5px;
+    font-size: 15px;
+    border-radius: 5px 0px 0px 5px;
+}
+.callback-block button{
+    width: 100px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(42, 42, 226);
+    color: #ffffff;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+.callback-block button:hover{
+    background-color: rgb(69, 69, 238);
+}
+.callback-block__comment{
+    font-size: 13px;
+}

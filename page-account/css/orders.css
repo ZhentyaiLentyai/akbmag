@@ -1,0 +1,18 @@
+.basket{
+    display: flex;
+}
+.orders__table{
+    border-collapse: collapse;
+}
+.orders__table th,
+.orders__table td {
+    border: 1px solid #ccc; /* Граница для ячеек */
+    text-align: center; /* Горизонтальное выравнивание по центру */
+    vertical-align: middle; /* Вертикальное выравнивание по центру */
+    padding: 10px; /* Отступы внутри ячеек для лучшего вида */
+}
+.table-products a{
+    padding-top: 10px;
+    color: black;
+    white-space: nowrap;
+}

@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Заполняем высоту экрана */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 200px 485px 485px auto;
+    grid-template-rows: 130px auto 100px;
+    gap: 5px;
+}
+@media(max-width: 1250px){
+    .page{
+    grid-template-columns: auto 164px 400px 400px auto;
+    }
+}
+@media(max-width: 1050px){
+    .page{
+    grid-template-columns: auto 100px 300px 300px auto;
+    }
+}

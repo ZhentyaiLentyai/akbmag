@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../page-main/css/page/page.css">
+    <!-- header -->
+    <link rel="stylesheet" href="../../page-main/css/header/header.css">
+    <link rel="stylesheet" href="../../page-main/css/header/navigation.css">
+    <link rel="stylesheet" href="../../page-main/css/header/menu.css">
+    <!-- aside -->
+    <link rel="stylesheet" href="../../page-main/css/aside/aside.css">
+    <link rel="stylesheet" href="../../page-main/css/aside/avtoakb.css">
+    <!-- main -->
+    <link rel="stylesheet" href="../../page-main/css/main/main.css">
+    <link rel="stylesheet" href="../css/login-register.css">
+    <!-- footer -->
+    <link rel="stylesheet" href="../../page-main/css/footer/footer.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbmag</title>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="navigation">
+                <div class="navigation__container">
+                    <div class="navigation__left">
+                        <ul class="navigation__menu">
+                            <li class="navigation__city">
+                                <a href="" id="selected-city">Москва</a>
+                                <ul class="navigation__city-menu">
+                                    <li><a href="#" class="navigation__city-option" data-city="Москва">Москва</a></li>
+                                    <li><a href="#" class="navigation__city-option" data-city="Санкт-Петербург">Санкт-Петербург</a></li>
+                                    <li><a href="#" class="navigation__city-option" data-city="Самара">Самара</a></li>
+                                </ul>
+                            </li>
+                            <li class="navigation__dropdown">
+                                <button id="dropdown-btn">Меню</button>
+                                <ul class="navigation__dropdown-menu">
+                                    <li><a href="">О компании</a></li>
+                                    <li><a href="">Оптом</a></li>
+                                    <li><a href="">Гарантия</a></li>
+                                    <li><a href="">Акции</a></li>
+                                    <li><a href="">Вакансии</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <script src="../../page-main/js/navigation-menu.js"></script>
+
+                    <div class="navigation__right">
+                        <input class="navigation__right-search" placeholder="Поиск по сайту">
+                        <a href=""><img class="navigation__search-img" src="../../page-main/img/search.svg" alt="search"></a>
+                        <a href="../../page-account/php/check_auth.php"><img class="navigation__account-img" src="../../page-main/img/account.jpg" alt="basket"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu__left">
+                    <div class="menu__logo">
+                        <a href="../../page-main/html/page-main.html"><img src="../../page-main/img/akbmag.svg" alt="АКБМАГ"></a>
+                        <p>Магазин аккумуляторов</p>
+                    </div>
+                    <a class="menu__catalog-link" href="../../page-catalog/php/page-catalog.php">
+                        <div class="menu__button-catalog">Каталог</div>
+                    </a>
+                    <div class="menu__contacts">
+                        <p>
+                            <a href="">
+                                <span class="menu__phone">+7 (977) 777-77-77</span>
+                            </a>
+                        </p>
+                        <a href="" class="menu__callback">Заказать обратный звонок</a>
+                    </div>
+                </div>
+                <div class="menu__links">
+                    <ul>
+                        <li><a href="">Доставка и оплата</a></li>
+                        <li><a href="">Статус заказа</a></li>
+                        <li><a href="">Адреса и контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <script src="../../page-main/js/city.js"></script>
+
+        <aside>
+            <div class="avtoakb">
+                <p>Автомобильные аккумуляторы</p>
+                <ul>
+                    <li class="avtoakb__brand"><a href="">HOWTER</a></li>
+                    <ul>
+                        <li class="avtoakb__series"><a href="">HOWTER AGM</a></li>
+                        <li class="avtoakb__series"><a href="">HOWTER EFB</a></li>
+                    </ul>
+                    <li class="avtoakb__brand">
+                        <a href="">AKBMAX</a></li>
+                    <ul>
+                        <li class="avtoakb__series"><a href="">AKBMAX PLUS</a></li>
+                        <li class="avtoakb__series"><a href="">AKBMAX ST</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </aside>
+
+        <main>
+            <div class="account">
+                <h2>Войдите в личный кабинет</h2>
+                <form action="../php/login.php" method="POST">
+                    <input type="text" name="username" placeholder="Логин" required>
+                    <input type="password" name="password" placeholder="Пароль" required>
+                    <button type="submit">Войти</button>
+                </form>
+                <p>Нет аккаунта? <a href="../html/register.html">Зарегистрируйтесь</a></p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer__container">
+                <div class="footer__text">
+                    <ul>
+                        <li><a href="">О компании</a></li>
+                        <li><a href="">Помощь</a></li>
+                        <li><a href="">Адреса и контакты</a></li>
+                        <li><a href="">Партнерская программа</a></li>
+                        <li><a href="">Вакансии</a></li>
+                        <li><a href="">Пользовательское соглашение</a></li>
+                        <li><a href="">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <img src="../../page-main/img/footer__warranty.png">
+            </div>
+        </footer>

@@ -1,0 +1,108 @@
+.menu{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1250px) {
+    .menu {
+        max-width: 975px; 
+    }
+}
+@media (max-width: 1050px) {
+    .menu {
+        max-width: 700px;
+    }
+}
+.menu__left{
+    display: flex;
+}
+.menu__logo{
+    text-align: center;
+    width: 150px;
+    font-size: 13px;
+    color: rgb(112, 112, 112);
+}
+.menu__logo a{
+    cursor: pointer;
+}
+.menu__catalog-link{
+    margin: 0px 20px 20px 20px;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+.menu__button-catalog-link:hover{
+    color: #000000;
+}
+.menu__button-catalog{
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: rgb(42, 42, 226);
+    cursor: pointer;
+    box-sizing: border-box;
+}
+@media (max-width: 1050px) {
+    .menu__button-catalog {
+        font-size: 14px;
+    }
+}
+.menu__button-catalog:hover{
+    color: #000000;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.2s ease-in;
+}
+.menu__contacts{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (max-width: 1050px) {
+    .menu__contacts {
+        display: none;
+    }
+}
+.menu__contacts a{
+    text-decoration: none;
+}
+.menu__phone{
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu__callback{
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+}
+.menu__callback::after{
+    content: "";
+    display: block;
+    border-bottom: 1px dotted black;
+    position: absolute;
+    left: 0;
+    bottom: 0;              
+    width: 190px;
+}
+.menu__links{
+    display: flex;
+    align-items: center;
+}
+.menu__links li{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.menu__links a{
+    color: rgb(31, 31, 163);
+}

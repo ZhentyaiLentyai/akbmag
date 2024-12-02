@@ -1,0 +1,9 @@
+aside{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+@media (max-width: 1050px) {
+    aside {
+        display: none;
+    }
+}

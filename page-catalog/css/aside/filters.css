@@ -1,0 +1,60 @@
+.filters{
+    display: flex;
+    flex-direction: column;
+}
+.filter{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.filter h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.filter-category{
+    padding: 5px;
+}
+.filter input{
+    margin-top: 10px;
+}
+.filter-button{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(42, 42, 226);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.filter-button:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+#price-slider {
+    width: 80%;
+}
+.price-labels {
+    width: 80%;
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.noUi-tooltip{
+    font-size: 14px;
+    padding: 3px;
+}
+.noUi-connect{
+    background-color: rgb(42, 42, 226);
+}
+.noUi-touch-area{
+    
+    border-radius: 10px;
+}
+.noUi-handle.noUi-handle-lower,
+.noUi-handle.noUi-handle-upper{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}

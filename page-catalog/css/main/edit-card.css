@@ -1,0 +1,37 @@
+.close-button__edit-card {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button__edit-card:hover,
+.close-button__edit-card:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.editCardForm{
+    display: flex;
+    flex-direction: column;
+    
+}
+.editCardForm label{
+    padding-top: 10px;
+}
+.editCardForm input{
+    padding: 10px;
+}
+.editCardForm select{
+    padding: 10px;
+}
+.save-button{
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(42, 42, 226);
+    color: white;
+    cursor: pointer;
+}
